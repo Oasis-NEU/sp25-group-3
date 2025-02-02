@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom';
+import AboutYou from './AboutYou';  
+
 function HomePage(){
     return (
         <div>
-            HomePage
+             <Link to="AboutYou" className = "button"> Go To About You </Link>
         </div>
     )
 }
