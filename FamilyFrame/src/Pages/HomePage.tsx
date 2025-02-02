@@ -1,8 +1,10 @@
+//import { Link } from 'react-router-dom';
+//import AboutYou from './AboutYou';  
+
 function HomePage(){
     return (
-        <div>
-            HomePage
-        </div>
+        <button 
+  className="button button--large blue" id="AboutYou-button"> Checkout </button>
     )
 }
 
