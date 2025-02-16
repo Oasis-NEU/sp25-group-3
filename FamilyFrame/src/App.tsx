@@ -7,7 +7,7 @@ import AboutYou from './Pages/AboutYou'
 function App() {
   return (
     <>
-      <AboutYou />
+    
     </>
   )
 }
