@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import AboutYou from './Pages/AboutYou'
+import AboutYou from './Pages/AboutYou.tsx'
+import HomePage from './Pages/HomePage'
 
 function App() {
   return (
-    <>
-    
-    </>
+    <div>
+      <AboutYou />
+      <HomePage />
+    </div>
   )
 }
 
